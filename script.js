@@ -56,16 +56,35 @@ function checkColor() {
   score.innerText = `Score: ${gameScore}`;
 
   if (scoreChange > 0) {
-    alert(message);
+    // alert(message);
+    Swal.fire({
+      title: message,
+      icon: "success",
+    });
     play();
   } else {
     if (lives.innerText > 1) {
       lives.innerText--;
-      alert(message);
+      // alert(message);
+      Swal.fire({
+        title: message,
+        icon: "error",
+      });
     } else {
-      lives.innerText = 0;
-      alert("Game Over!");
-      window.location.href = "index.html"; // Redirect to the index page
+      innerText = 0;
+      // alert("Game Over!");
+      Swal.fire({
+        title: "Game Over!",
+        text: "Your game is over. Click OK to return to the main page.",
+        icon: "error",
+        showCancelButton: false,
+        confirmButtonColor: "#3085d6",
+        confirmButtonText: "OK",
+      }).then((result) => {
+        if (result.isConfirmed) {
+          window.location.href = "index.html"; // Redirect to the main page
+        }
+      });
     }
   }
 }
