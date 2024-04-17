@@ -1,0 +1,546 @@
+*,
+::before,
+::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+@keyframes colorChange {
+  1% {
+    color: hsl(3.6, 50%, 50%);
+  }
+  2% {
+    color: hsl(7.2, 50%, 50%);
+  }
+  3% {
+    color: hsl(10.8, 50%, 50%);
+  }
+  4% {
+    color: hsl(14.4, 50%, 50%);
+  }
+  5% {
+    color: hsl(18, 50%, 50%);
+  }
+  6% {
+    color: hsl(21.6, 50%, 50%);
+  }
+  7% {
+    color: hsl(25.2, 50%, 50%);
+  }
+  8% {
+    color: hsl(28.8, 50%, 50%);
+  }
+  9% {
+    color: hsl(32.4, 50%, 50%);
+  }
+  10% {
+    color: hsl(36, 50%, 50%);
+  }
+  11% {
+    color: hsl(39.6, 50%, 50%);
+  }
+  12% {
+    color: hsl(43.2, 50%, 50%);
+  }
+  13% {
+    color: hsl(46.8, 50%, 50%);
+  }
+  14% {
+    color: hsl(50.4, 50%, 50%);
+  }
+  15% {
+    color: hsl(54, 50%, 50%);
+  }
+  16% {
+    color: hsl(57.6, 50%, 50%);
+  }
+  17% {
+    color: hsl(61.2, 50%, 50%);
+  }
+  18% {
+    color: hsl(64.8, 50%, 50%);
+  }
+  19% {
+    color: hsl(68.4, 50%, 50%);
+  }
+  20% {
+    color: hsl(72, 50%, 50%);
+  }
+  21% {
+    color: hsl(75.6, 50%, 50%);
+  }
+  22% {
+    color: hsl(79.2, 50%, 50%);
+  }
+  23% {
+    color: hsl(82.8, 50%, 50%);
+  }
+  24% {
+    color: hsl(86.4, 50%, 50%);
+  }
+  25% {
+    color: hsl(90, 50%, 50%);
+  }
+  26% {
+    color: hsl(93.6, 50%, 50%);
+  }
+  27% {
+    color: hsl(97.2, 50%, 50%);
+  }
+  28% {
+    color: hsl(100.8, 50%, 50%);
+  }
+  29% {
+    color: hsl(104.4, 50%, 50%);
+  }
+  30% {
+    color: hsl(108, 50%, 50%);
+  }
+  31% {
+    color: hsl(111.6, 50%, 50%);
+  }
+  32% {
+    color: hsl(115.2, 50%, 50%);
+  }
+  33% {
+    color: hsl(118.8, 50%, 50%);
+  }
+  34% {
+    color: hsl(122.4, 50%, 50%);
+  }
+  35% {
+    color: hsl(126, 50%, 50%);
+  }
+  36% {
+    color: hsl(129.6, 50%, 50%);
+  }
+  37% {
+    color: hsl(133.2, 50%, 50%);
+  }
+  38% {
+    color: hsl(136.8, 50%, 50%);
+  }
+  39% {
+    color: hsl(140.4, 50%, 50%);
+  }
+  40% {
+    color: hsl(144, 50%, 50%);
+  }
+  41% {
+    color: hsl(147.6, 50%, 50%);
+  }
+  42% {
+    color: hsl(151.2, 50%, 50%);
+  }
+  43% {
+    color: hsl(154.8, 50%, 50%);
+  }
+  44% {
+    color: hsl(158.4, 50%, 50%);
+  }
+  45% {
+    color: hsl(162, 50%, 50%);
+  }
+  46% {
+    color: hsl(165.6, 50%, 50%);
+  }
+  47% {
+    color: hsl(169.2, 50%, 50%);
+  }
+  48% {
+    color: hsl(172.8, 50%, 50%);
+  }
+  49% {
+    color: hsl(176.4, 50%, 50%);
+  }
+  50% {
+    color: hsl(180, 50%, 50%);
+  }
+  51% {
+    color: hsl(183.6, 50%, 50%);
+  }
+  52% {
+    color: hsl(187.2, 50%, 50%);
+  }
+  53% {
+    color: hsl(190.8, 50%, 50%);
+  }
+  54% {
+    color: hsl(194.4, 50%, 50%);
+  }
+  55% {
+    color: hsl(198, 50%, 50%);
+  }
+  56% {
+    color: hsl(201.6, 50%, 50%);
+  }
+  57% {
+    color: hsl(205.2, 50%, 50%);
+  }
+  58% {
+    color: hsl(208.8, 50%, 50%);
+  }
+  59% {
+    color: hsl(212.4, 50%, 50%);
+  }
+  60% {
+    color: hsl(216, 50%, 50%);
+  }
+  61% {
+    color: hsl(219.6, 50%, 50%);
+  }
+  62% {
+    color: hsl(223.2, 50%, 50%);
+  }
+  63% {
+    color: hsl(226.8, 50%, 50%);
+  }
+  64% {
+    color: hsl(230.4, 50%, 50%);
+  }
+  65% {
+    color: hsl(234, 50%, 50%);
+  }
+  66% {
+    color: hsl(237.6, 50%, 50%);
+  }
+  67% {
+    color: hsl(241.2, 50%, 50%);
+  }
+  68% {
+    color: hsl(244.8, 50%, 50%);
+  }
+  69% {
+    color: hsl(248.4, 50%, 50%);
+  }
+  70% {
+    color: hsl(252, 50%, 50%);
+  }
+  71% {
+    color: hsl(255.6, 50%, 50%);
+  }
+  72% {
+    color: hsl(259.2, 50%, 50%);
+  }
+  73% {
+    color: hsl(262.8, 50%, 50%);
+  }
+  74% {
+    color: hsl(266.4, 50%, 50%);
+  }
+  75% {
+    color: hsl(270, 50%, 50%);
+  }
+  76% {
+    color: hsl(273.6, 50%, 50%);
+  }
+  77% {
+    color: hsl(277.2, 50%, 50%);
+  }
+  78% {
+    color: hsl(280.8, 50%, 50%);
+  }
+  79% {
+    color: hsl(284.4, 50%, 50%);
+  }
+  80% {
+    color: hsl(288, 50%, 50%);
+  }
+  81% {
+    color: hsl(291.6, 50%, 50%);
+  }
+  82% {
+    color: hsl(295.2, 50%, 50%);
+  }
+  83% {
+    color: hsl(298.8, 50%, 50%);
+  }
+  84% {
+    color: hsl(302.4, 50%, 50%);
+  }
+  85% {
+    color: hsl(306, 50%, 50%);
+  }
+  86% {
+    color: hsl(309.6, 50%, 50%);
+  }
+  87% {
+    color: hsl(313.2, 50%, 50%);
+  }
+  88% {
+    color: hsl(316.8, 50%, 50%);
+  }
+  89% {
+    color: hsl(320.4, 50%, 50%);
+  }
+  90% {
+    color: hsl(324, 50%, 50%);
+  }
+  91% {
+    color: hsl(327.6, 50%, 50%);
+  }
+  92% {
+    color: hsl(331.2, 50%, 50%);
+  }
+  93% {
+    color: hsl(334.8, 50%, 50%);
+  }
+  94% {
+    color: hsl(338.4, 50%, 50%);
+  }
+  95% {
+    color: hsl(342, 50%, 50%);
+  }
+  96% {
+    color: hsl(345.6, 50%, 50%);
+  }
+  97% {
+    color: hsl(349.2, 50%, 50%);
+  }
+  98% {
+    color: hsl(352.8, 50%, 50%);
+  }
+  99% {
+    color: hsl(356.4, 50%, 50%);
+  }
+  100% {
+    color: hsl(0, 50%, 50%);
+  }
+}
+.btn {
+  margin: 20px;
+  width: 130px;
+  height: 40px;
+  line-height: 42px;
+  color: #fff;
+  border-radius: 5px;
+  padding: 0;
+  border: none;
+  font-family: "Lato", sans-serif;
+  font-weight: 500;
+  background: transparent;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  position: relative;
+  display: inline-block;
+  box-shadow: inset 2px 2px 2px 0px rgba(255, 255, 255, 0.5), 7px 7px 20px 0px rgba(0, 0, 0, 0.1), 4px 4px 5px 0px rgba(0, 0, 0, 0.1);
+  outline: none;
+  background: rgb(255, 27, 0);
+  background: linear-gradient(0deg, rgb(255, 27, 0) 0%, rgb(251, 75, 2) 100%);
+}
+.btn:hover {
+  color: #f0094a;
+  background: transparent;
+  box-shadow: none;
+}
+.btn:before, .btn:after {
+  content: "";
+  position: absolute;
+  top: 0;
+  right: 0;
+  height: 2px;
+  width: 0;
+  background: #f0094a;
+  box-shadow: -1px -1px 5px 0px #fff, 7px 7px 20px 0px rgba(0, 0, 0, 0.2), 4px 4px 5px 0px rgba(0, 0, 0, 0.1333333333);
+  transition: 400ms ease all;
+}
+.btn:after {
+  right: inherit;
+  top: inherit;
+  left: 0;
+  bottom: 0;
+}
+.btn:hover:before, .btn:hover:after {
+  width: 100%;
+  transition: 800ms ease all;
+}
+
+.header {
+  height: 200px;
+  margin: 0px auto;
+  padding: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: black;
+  flex-direction: column;
+}
+.header h1,
+.header h2 {
+  display: block;
+  opacity: 0.5;
+  width: 100%;
+  text-align: center;
+  font-size: 50px;
+  animation: colorChange 8s infinite alternate;
+  font-family: "Russo One", sans-serif;
+  font-weight: 900;
+  transition: 0.8s;
+  color: hsl(356.4, 50%, 50%);
+}
+.header h1:hover,
+.header h2:hover {
+  opacity: 1;
+  cursor: pointer;
+  text-shadow: 0px 1px 1px rgba(255, 255, 255, 0.5);
+}
+.header h2 {
+  font-size: 38px;
+  font-weight: 600;
+}
+
+.user {
+  margin: 0px auto;
+  border: 2px solid black;
+  border-top: 0;
+  border-radius: 0 0 15px 15px;
+  padding: 10px;
+  display: flex;
+  align-items: center;
+  width: 600px;
+  height: fit-content;
+  justify-content: center;
+  gap: 10px;
+  flex-wrap: wrap;
+}
+.user input {
+  border: none;
+  appearance: none;
+  background: #f2f2f2;
+  padding: 12px;
+  border-radius: 3px;
+  width: 250px;
+  outline: none;
+  font-size: 14px;
+}
+
+.instructions,
+.leaderboard {
+  margin: 20px auto;
+  border: 2px solid black;
+  border-radius: 15px;
+  padding: 50px 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 600px;
+  height: fit-content;
+  gap: 10px;
+  flex-wrap: wrap;
+}
+
+.leaderboard h2 {
+  margin-bottom: 30px;
+}
+
+.container {
+  position: relative;
+}
+.container .menu {
+  border: 2px solid black;
+  border-top: 0;
+  border-radius: 0 0 15px 15px;
+  position: absolute;
+  left: 30px;
+  top: 0px;
+  height: 250px;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+}
+.container .menu .reset {
+  text-align: center;
+}
+.container .menu .reset a {
+  text-decoration: none;
+}
+.container .menu .reset,
+.container .menu .mode {
+  padding: 5px;
+  cursor: pointer;
+  transition: 0.2s;
+  border-radius: 5px;
+}
+.container .menu .reset:active,
+.container .menu .mode:active {
+  transform: scale(0.8);
+}
+.container .menu .modes {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+}
+.container .menu .modes .mode {
+  color: #fff;
+  background-color: #aaa;
+  font-size: 20px;
+  cursor: pointer;
+  border: 3px solid transparent;
+}
+.container .menu .modes .active {
+  border: 3px solid #333;
+  background-color: #2fcc71;
+}
+.container .wrapper {
+  margin: 0 auto;
+  padding: 10px;
+  display: flex;
+  align-items: center;
+  width: 600px;
+  height: fit-content;
+  justify-content: center;
+  gap: 10px;
+  flex-wrap: wrap;
+}
+.container .wrapper .box {
+  border: 2px solid black;
+  border-radius: 15px;
+  width: 150px;
+  height: 150px;
+  cursor: pointer;
+  transition: 0.2s;
+}
+.container .wrapper .box:active {
+  transform: scale(0.9);
+}
+@keyframes hover {
+  50% {
+    transform: translateY(-3px);
+  }
+  100% {
+    transform: translateY(-6px);
+  }
+}
+.container .wrapper .box:hover {
+  transform: translateY(-6px);
+  animation-name: hover;
+  animation-duration: 1.5s;
+  animation-delay: 0.3s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+}
+.container .scoreDisplay {
+  border: 2px solid black;
+  border-top: 0;
+  border-radius: 0 0 15px 15px;
+  position: absolute;
+  right: 30px;
+  top: 0px;
+  width: 150px;
+  height: 50px;
+  padding: 10px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+}
+
+/*# sourceMappingURL=style.css.map */
